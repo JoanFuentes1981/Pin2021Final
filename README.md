@@ -2,3 +2,4 @@
 
 ## Colaboradores
 * [Vladimir Varela](https://github.com/VladimirVarelaH)
+* [Jose Fuentes](https://github.com/JoanFuentes1981)
