@@ -4,7 +4,7 @@ export function Seccion3(){
             <div className="imagentres">
                 <div className="caja">
                     <div className="carrusel">
-                        <div id="carouselExampleFade" className="tamano carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
                             <div>
                                 <div className="carousel-item active" data-bs-interval="10000">
                                     <h4 className="texto-caja1">Sed ut perspiciatis</h4>

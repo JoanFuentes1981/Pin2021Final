@@ -78,9 +78,8 @@ body {
   background-repeat: no-repeat;
   margin-left: 7.3%;
   margin-top: auto;
-  width: 9.3%;
+  width: 11%;
   height: 66%;
-  border: 2px solid blue;
 }
 
 .menu {
@@ -90,7 +89,7 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 42.68rem;
-  height: 12.5%;
+  height: 100%;
   margin-right: 110px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
@@ -114,20 +113,8 @@ body {
   cursor: pointer;
 }
 
-.carrusel {
-  width: 30%;
-  height: 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .ubicacion {
-  top: 15%;
-  bottom: 30%;
-  left: 10%;
-  width: auto;
-  height: auto;
+  height: 42rem;
 }
 
 .titulos {
@@ -164,10 +151,15 @@ body {
   color: #FFFFFF;
   border-radius: 25px;
   border-style: none;
+  margin-top: 30px;
 }
 
 .redondeo {
   border-radius: 50%;
+}
+
+.carousel-indicators {
+  border: 2px solid yellow;
 }
 
 /*            SECCION DOS               */
@@ -222,8 +214,11 @@ body {
 
 .flechas {
   position: absolute;
-  width: 29.4rem;
+  width: 11.7rem;
   margin-right: 1rem;
+  height: 3rem;
+  top: 16rem;
+  left: 60%;
 }
 
 .texto-caja1 {
@@ -288,26 +283,19 @@ body {
 .flecha-izquierda {
   background-image: url(./img/left.svg);
   background-repeat: no-repeat;
-  width: 25px;
-  height: 25px;
+  width: 2rem;
+  height: 1.5rem;
 }
 
 .flecha-derecha {
   background-image: url(./img/rigth.svg);
   background-repeat: no-repeat;
-  width: 25px;
-  height: 25px;
+  width: 2rem;
+  height: 1.5rem;
 }
 
-.container--flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.carousel-control-prev {
+  border: 1px solid red;
 }
 
 /*            SECCION CUATRO            */
@@ -415,21 +403,5 @@ body {
   background-repeat: no-repeat;
   width: 200px;
   height: 25px;
-}
-
-@media (min-width: 400px) {
-  body {
-    width: auto;
-  }
-  .caja {
-    width: 12.5rem;
-    height: 9.5rem;
-  }
-}
-
-@media (max-width: 1200px) {
-  body {
-    width: auto;
-  }
 }
 /*# sourceMappingURL=App.css.map */
