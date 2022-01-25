@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+
 export function Seccion1(){
     return(    
         <div className="contenedor">
