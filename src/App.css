@@ -69,7 +69,6 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   border-bottom: 2px solid #E0752F;
-  border: 2px solid red;
   height: 6rem;
 }
 
