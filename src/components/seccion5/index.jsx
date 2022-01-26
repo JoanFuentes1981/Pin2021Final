@@ -11,7 +11,7 @@ export function Seccion5(){
     const [data, setData] = useState({"name":"", "email":"", "phone":"", "message":""});
 
     function handleData (event) {
-        let new_data = {... data}
+        let new_data = {...data}
         new_data[event.target.name] = event.target.value;
         setData(new_data)
     }
