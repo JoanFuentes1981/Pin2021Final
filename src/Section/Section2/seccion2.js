@@ -1,6 +1,8 @@
+import "./seccion2.scss";
+
 export function Seccion2(){
     return(    
-        <div className="contenedor-dos">
+        <div id ="seccion2" className="contenedor-dos">
             <p className="barra"></p>
             <div className="segunda-parte">
                 <h1 className="primerh1">We Help Businesses</h1>

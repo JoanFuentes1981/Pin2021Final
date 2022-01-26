@@ -1,6 +1,8 @@
+import "./seccion4.scss";
+
 export function Seccion4(){
     return(    
-        <div className ="contenedor-cuatro">
+        <div id ="seccion4" className ="contenedor-cuatro">
             <div className="accordion" id="accordionExample">
                 <div className="accordion-item">
                     <h2 className="accordion-header formato" id="headingOne">

@@ -1,23 +1,13 @@
-import { Link } from "react-router-dom";
+import Navbar from "../../NavBar/Navbar"
+import "./section1.css"
 
 export function Seccion1(){
     return(    
-        <div className="contenedor">
-       <header>
-            <div className="parte-superior">
-                <div className="imagen"></div>
-                {/* <div > */}
-                    <nav className="menu">
-                        <a href="">Home</a>
-                        <a href="">About</a>
-                        <a href="">Product</a>
-                        <a href="">Services</a>
-                        <a href="">Contact</a>
-                    </nav>  
-                {/* </div> */}
-            </div>             
-        </header>
+    <div id = "seccion1" className="contenedor">
         <div className="carrusel">
+            <header>
+                <Navbar/>
+            </header>
             <div id="carouselExampleDark" className="ubicacion carousel carousel-dark slide" data-bs-ride="carousel">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active redondeo" aria-current="true" aria-label="Slide 1" ></button>

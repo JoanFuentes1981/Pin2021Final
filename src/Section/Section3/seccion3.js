@@ -1,6 +1,8 @@
+import "./seccion3.scss";
+
 export function Seccion3(){
     return(    
-        <div className ="contenedor-tres">
+        <div id="seccion3" className ="contenedor-tres">
             <div className="imagentres">
                 <div className="caja">
                     <div className="carrusel">
