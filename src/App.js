@@ -3,7 +3,7 @@ import { Seccion1 } from "./components/seccion1";
 import { Seccion2 } from "./components/seccion2";
 import { Seccion3 } from "./components/seccion3";
 import { Seccion4 } from "./components/seccion4";
-import { Seccion5 } from "./components/seccion5";
+import { Seccion5 } from "./components/seccion5/";
 import { Footer } from "./components/footer";
 
 function App() {
