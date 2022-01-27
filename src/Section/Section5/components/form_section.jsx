@@ -5,7 +5,7 @@ function FormSection (props){
         <div>
             <label htmlFor={props.id}>{props.text}</label>
             <input type={props.type} onChange={props.handler} placeholder={props.placeholder}
-            name={props.id} className="formulario__input-txt" value={props.value}/>
+            name={props.id} className="formulario__input-txt" value={props.value} required/>
         </div>
     )
 }
